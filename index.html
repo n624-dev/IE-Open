@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>title</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script type="text/javascript">
+<!-- 
+function refresh_jump(){
+ window.open("https://www.google.com/","newwindow");
+ }
+ //-->
+</script>
+</head>
+<body onload="setTimeout('refresh_jump()',0);">
+ <p>Googleのトップページを新規ウィンドウで開きます。<br>
+ 自動的に開かない場合は、以下のリンクをクリックして下さい。</p>
+ <p><a href="https://www.google.com/" target="_blank">http://www.yahoo.co.jp/</a></p>
+</body>
+</html>
